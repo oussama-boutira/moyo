@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("pc-gaming-battlestation-14.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    background: linear-gradient(10deg,rgba(67, 80, 122, 0.212),rgba(44, 49, 116, 0.288));
+    backdrop-filter: blur(2px);
+}
+h1 {
+    color: #ffffffa9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background: linear-gradient(10deg,rgba(255, 255, 255, 0.5),rgb(255, 255, 255));
+    backdrop-filter: blur(2px);
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+    transition: 0.7s;
+    transform: scale(0.97);
+}
+p{
+    color: #ffffffa9;
+}
+a{
+    text-decoration: none;
+    color: rgb(54, 199, 235);
+}
+a:hover{
+    text-decoration: underline;
+    color: #3084df;
+    text-shadow: 10px 5px 20px rgb(73, 76, 255);
+    transition: 0.4s;
+}
